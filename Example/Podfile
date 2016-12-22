@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SNCocoapodsLib_Example' do
+  pod 'SNCocoapodsLib', :path => '../'
+
+  target 'SNCocoapodsLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
