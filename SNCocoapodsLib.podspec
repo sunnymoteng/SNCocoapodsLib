@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SNCocoapodsLib'
+  s.homepage         = 'https://github.com/sunnymoteng/SNCocoapodsLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunnymoteng' => '369074420@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SNCocoapodsLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sunnymoteng/SNCocoapodsLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SNCocoapodsLib/Classes/**/*'
+  s.source_files = 'SNCocoapodsLib/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
-  #   'SNCocoapodsLib' => ['SNCocoapodsLib/Assets/*.png']
+  #   'SNCocoapodsLib' => ['Pod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'Pod/Classes/**/SNCocoapodsLib.h'
+# s.frameworks = 'UIKit', 'MapKit','ImageIO'
+  # s.dependency 'SDWebImage'
 end

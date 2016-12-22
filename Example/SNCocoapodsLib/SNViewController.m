@@ -7,7 +7,6 @@
 //
 
 #import "SNViewController.h"
-
 @interface SNViewController ()
 
 @end
