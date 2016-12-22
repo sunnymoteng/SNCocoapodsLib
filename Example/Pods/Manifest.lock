@@ -1,5 +1,5 @@
 PODS:
-  - SNCocoapodsLib (0.1.0)
+  - SNCocoapodsLib (1.1.1)
 
 DEPENDENCIES:
   - SNCocoapodsLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SNCocoapodsLib: b8bef8ebb9cbbc4fad66fe43f8ade5d173297081
+  SNCocoapodsLib: 00af36d69eb9304e1386e83a178d181e24a7e945
 
 PODFILE CHECKSUM: 27dbff0373af2622303fe79a7e7a168915b91cb8
 
